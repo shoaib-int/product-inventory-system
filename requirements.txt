@@ -1,0 +1,7 @@
+python-multipart==0.0.20
+SQLAlchemy==2.0.44
+typing_extensions==4.15.0
+typing-inspection==0.4.2
+uvicorn==0.38.0
+fastapi==0.115.2
+

@@ -1,0 +1,75 @@
+# --------------------------
+# PYTHON BACKEND
+# --------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+*.log
+
+# Virtual environment
+myenv/
+env/
+venv/
+
+# FastAPI cache
+.idea/
+.mypy_cache/
+.pytest_cache/
+.cache/
+
+# VSCode
+.vscode/
+
+# --------------------------
+# REACT FRONTEND
+# --------------------------
+frontend/node_modules/
+frontend/build/
+frontend/.cache/
+frontend/dist/
+
+# package lock backup files
+*.tsbuildinfo
+
+
+# --------------------------
+# NODE GLOBAL
+# --------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --------------------------
+# ENVIRONMENT VARIABLES
+# --------------------------
+.env
+.env.local
+.env.production
+.env.development
+
+# --------------------------
+# OS SYSTEM FILES
+# --------------------------
+# Windows
+Thumbs.db
+desktop.ini
+
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+# --------------------------
+# OTHER IGNORABLE FILES
+# --------------------------
+*.zip
+*.tar
+*.gz
+
