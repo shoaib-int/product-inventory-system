@@ -4,7 +4,8 @@ import "./App.css";
 import TaglineSection from "./TaglineSection";
 
 const api = axios.create({
-  baseURL: "http://localhost:8000",
+  // baseURL: "http://localhost:8000",
+  baseURL: "https://product-inventory-system-g3mx.onrender.com",
 });
 
 function App() {

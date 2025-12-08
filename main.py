@@ -12,7 +12,7 @@ app = FastAPI()
 # CORS for React dev server
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000","https://product-inventory-system-chi.vercel.app/"],
+    allow_origins=["http://localhost:3000","https://product-inventory-system-chi.vercel.app"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
